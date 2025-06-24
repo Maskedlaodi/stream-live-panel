@@ -2,18 +2,22 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Live Panel",
-  "id": "stream-live-panel",
+  "id": "Maskedlaodi-stream-live-panel",
+  "rootUrls": [
+    "https://github.com/Maskedlaodi/stream-live-panel"
+  ],
   "info": {
     "keywords": ["panel"],
     "description": "",
     "author": {
-      "name": "Stream"
+      "name": "Maskedlaodi",
+      "url": "https://github.com/Maskedlaodi"
     },
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
     },
-    "links": [],
+    "links": ["https://github.com/Maskedlaodi/stream-live-panel"],
     "screenshots": [],
     "version": "1.0.0",
     "updated": "2025-06-24"

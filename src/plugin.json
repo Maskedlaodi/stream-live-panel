@@ -3,6 +3,9 @@
   "type": "panel",
   "name": "Live Panel",
   "id": "Maskedlaodi-stream-live-panel",
+  "rootUrls": [
+    "https://github.com/Maskedlaodi/stream-live-panel"
+  ],
   "info": {
     "keywords": ["panel"],
     "description": "",
