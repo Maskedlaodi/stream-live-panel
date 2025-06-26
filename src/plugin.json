@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/grafana/grafana/master/docs/sources/developers/plugins/plugin.schema.json",
   "type": "panel",
   "name": "Live Panel",
-  "id": "Maskedlaodi-stream-live-panel",
+  "id": "maskedlaodi-stream-live-panel",
   "rootUrls": [
     "https://github.com/Maskedlaodi/stream-live-panel"
   ],
