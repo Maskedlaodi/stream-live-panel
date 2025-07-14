@@ -1,3 +1,52 @@
+**Target Audience and Usage Scenarios for the Live Stream Panel Plugin**
+The primary target audience for this panel plugin includes:
+
+- **IT Operations Teams**
+
+Who need to monitor the health and status of live video streams (such as m3u8, flv, rtmp) in real time, especially in industries like media, broadcasting, security surveillance, and online education.
+
+- **NOC (Network Operations Center) Engineers**
+
+Who require a unified dashboard to visualize, switch, and monitor multiple live streams, and receive instant alerts when stream errors or interruptions occur.
+
+- **DevOps and SREs**
+
+Who want to integrate live stream quality monitoring into their existing Grafana dashboards, correlating stream status with infrastructure and application metrics.
+
+- **Business Users and Managers**
+
+Who need a visual overview of live stream availability and quality, with the ability to quickly identify and respond to issues.
+**How Grafana Users Can Use This Plugin:**
+
+- **Real-time Stream Monitoring:**
+
+Users can embed one or more live video streams directly into their Grafana dashboards, supporting m3u8, flv, and rtmp formats. The panel automatically selects the appropriate player and provides a seamless viewing experience.
+
+- **Dynamic Stream Switching:**
+
+The panel can dynamically list and switch between multiple stream URLs, either manually (via dropdown) or automatically from data sources like ClickHouse.
+
+- **Alerting and Incident Response:**
+
+The plugin monitors stream status (playing, buffering, errors, reconnections, etc.) and supports configurable alerting (visual, sound, DingTalk, email). This helps users respond quickly to stream interruptions or quality issues.
+
+- **Error Logging and Troubleshooting:**
+
+All stream errors and alert events are logged and displayed within the panel, making it easy for users to review recent issues and troubleshoot problems.
+
+- **Integration with Existing Grafana Workflows:**
+
+By leveraging Grafana’s flexible dashboarding and alerting ecosystem, users can correlate live stream health with other business or technical metrics, creating a comprehensive monitoring solution.
+**Typical Use Cases:**
+- Monitoring live broadcast channels in a TV station or streaming platform.
+- Supervising security camera feeds in a control room.
+- Ensuring the availability and quality of online education or webinar streams.
+- Providing business stakeholders with a real-time overview of critical live video services.
+
+---
+**In summary:**
+This plugin is designed for any Grafana user who needs to monitor, visualize, and receive alerts for live video streams as part of their operational dashboards.
+
 # ✅ 已实现的功能
 ## 1. 多格式视频流支持
 - m3u8 - 使用 hls.js 播放
